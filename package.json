@@ -1,7 +1,7 @@
 {
-  "name": "joi-to-swagger",
-  "version": "6.2.0",
-  "description": "Conversion library for transforming joi schema objects into swagger / OpenApi OAS 3.0 schema definitions.",
+  "name": "latest-joi-to-swagger",
+  "version": "1.0.1",
+  "description": "[Updated] A lightweight conversion library for transforming Joi schema objects into Swagger/OpenAPI OAS 3.0 schema definitions. Designed for developers looking to automate API documentation generation while maintaining flexibility and accuracy in schema validation.",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
@@ -17,16 +17,19 @@
   "keywords": [
     "joi",
     "swagger",
+    "openapi",
+    "oas",
     "schema",
+    "conversion",
+    "validation",
     "api",
-    "convert",
-    "openapi"
+    "documentation"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Twipped/joi-to-swagger.git"
+  "bugs": {
+    "url": "https://github.com/cyrus-reap/latest-joi-to-swagger/issues"
   },
-  "author": "Jocelyn Badgley <joc@twipped.com>",
+  "homepage": "https://github.com/cyrus-reap/latest-joi-to-swagger#readme",
+  "author": "Cyrus Pastelero <cyrus@reap.hk>",
   "license": "MIT",
   "devDependencies": {
     "@joi/date": "^2.1.0",
